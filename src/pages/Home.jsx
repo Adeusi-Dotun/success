@@ -13,6 +13,6 @@ export default function Home() {
  <section className="us-tease section" id="us"><div><p className="eyebrow">08 — HER &amp; ME</p><h2>Somewhere along the way, I became part of your year too.</h2><a href="/side/us" className="text-link">See our chapter →</a></div><img src="/images/categories/placeholder-cover.svg" alt="A shared memory" /></section>
  <section className="final-message section"><p className="eyebrow">ONE MORE THING</p><h2>And those are just some of the many sides of you.</h2><p>There's the girl your friends know. The girl your family knows. The girl the world sees.<br /><br />And then there's the girl I know.<br /><br />I'm grateful I got to see all these different sides of you this year.<br /><br /><strong>Happy Birthday, {site.herName}.</strong></p></section>
  <section className="letter section" id="letter"><p className="eyebrow">FOR YOUR EYES ONLY</p><h2>A Letter <i>For You</i></h2><article>{site.letter.split('\n').map((paragraph, index) => <p key={index}>{paragraph || ' '}</p>)}</article></section>
- <section className="end"><img src={site.heroImage} alt="" /><div><p className="eyebrow">WITH LOVE</p><h2>HAPPY BIRTHDAY,<br /><i>{site.herName}</i></h2><p>Here's to another year of you.</p><a href="#top" onClick={startAgain}>Start Again ↻</a></div></section>
+ <section className="end"><div><p className="eyebrow">WITH LOVE</p><h2>HAPPY BIRTHDAY,<br /><i>{site.herName}</i></h2><p>Here's to another year of you.</p><a href="#top" onClick={startAgain}>Start Again ↻</a></div></section>
  </main></>;
 }

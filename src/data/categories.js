@@ -19,6 +19,7 @@ import chaosVideo01 from '../assets/chaos/WhatsApp Video 2026-09-26 at 16.40.00.
 import chaosVideo02 from '../assets/chaos/WhatsApp Video 2026-09-26 at 16.40.01.mp4';
 import chaosVideo03 from '../assets/chaos/WhatsApp Video 2026-09-26 at 16.40.04.mp4';
 import chaosVideo04 from '../assets/chaos/WhatsApp Video 2026-09-26 at 16.42.20.mp4';
+import chaosVideo05 from '../assets/chaos/WhatsApp Video 2026-09-26 at 17.10.51.mp4';
 import adventurePhoto01 from '../assets/adventures/WhatsApp Image 2026-09-26 at 16.50.11.jpeg';
 import adventurePhoto02 from '../assets/adventures/WhatsApp Image 2026-09-26 at 16.50.14.jpeg';
 import adventureVideo01 from '../assets/adventures/WhatsApp Video 2026-09-26 at 16.48.01.mp4';
@@ -42,39 +43,38 @@ const makeMedia = (id, title) => [
 ];
 const softSideMedia = [
   { type: 'image', src: softSideCover, alt: 'Soft Side photo memory one', caption: 'A soft moment I want to keep.' },
-  { type: 'video', src: softSide01, poster: placeholder('soft-side', '01'), alt: 'Soft Side video memory one', caption: 'A quiet little moment.' },
-  { type: 'video', src: softSide02, poster: placeholder('soft-side', '02'), alt: 'Soft Side video memory two', caption: 'The kind of moment I want to replay.' },
+  { type: 'video', src: softSide01, poster: placeholder('soft-side', '01'), alt: 'Soft Side video memory one', caption: 'Best in Makeup' },
+  { type: 'video', src: softSide02, poster: placeholder('soft-side', '02'), alt: 'Soft Side video memory two', caption: 'e wo bi omo shey dun' },
   { type: 'video', src: softSide03, poster: placeholder('soft-side', '03'), alt: 'Soft Side video memory three', caption: 'Softness, exactly as it is.' },
-  { type: 'video', src: softSide04, poster: placeholder('soft-side', '04'), alt: 'Soft Side video memory four', caption: 'One more little piece of you.' },
-  { type: 'image', src: softSidePhoto02, alt: 'Soft Side photo memory two', caption: 'Beautiful in the quiet moments too.' },
-  { type: 'image', src: softSidePhoto03, alt: 'Soft Side photo memory three', caption: 'A little glimpse of your gentleness.' },
-  { type: 'image', src: softSidePhoto04, alt: 'Soft Side photo memory four', caption: 'One more reason this chapter is yours.' },
+  { type: 'video', src: softSide04, poster: placeholder('soft-side', '04'), alt: 'Soft Side video memory four', caption: 'I was out of adjectives when i saw this' },
+  { type: 'image', src: softSidePhoto04, alt: 'Soft Side photo memory four', caption: 'The only reason why Joy Mojisola won most beautiful girl in nigeria was because you did not contest.' },
 ];
 const styleMedia = [
   { type: 'image', src: stylePhoto01, alt: 'Her Style photo one', caption: 'Looking like you knew exactly what you were doing.' },
-  { type: 'video', src: styleVideo01, poster: stylePhoto01, alt: 'Her Style video one', caption: 'Effortless, as usual.' },
-  { type: 'video', src: styleVideo02, poster: stylePhoto01, alt: 'Her Style video two', caption: 'A look worth remembering.' },
+  { type: 'video', src: styleVideo01, poster: stylePhoto01, alt: 'Her Style video one', caption: 'This is the pinnacle of beauty.' },
+  { type: 'video', src: styleVideo02, poster: stylePhoto01, alt: 'Her Style video two', caption: 'O ye ko ma shey modeling' },
   { type: 'video', src: styleVideo03, poster: stylePhoto02, alt: 'Her Style video three', caption: 'You make it look easy.' },
-  { type: 'video', src: styleVideo04, poster: stylePhoto02, alt: 'Her Style video four', caption: 'The details always matter.' },
+  { type: 'video', src: styleVideo04, poster: stylePhoto02, alt: 'Her Style video four', caption: 'im still short of words' },
   { type: 'video', src: styleVideo05, poster: stylePhoto02, alt: 'Her Style video five', caption: 'One more look I love.' },
   { type: 'image', src: stylePhoto02, alt: 'Her Style photo two', caption: 'Completely, unmistakably you.' },
 ];
 const chaosMedia = [
   { type: 'image', src: chaosPhoto01, alt: 'Her Chaotic Side photo one', caption: 'Exhibit A.' },
   { type: 'video', src: chaosVideo01, poster: chaosPhoto01, alt: 'Her Chaotic Side video one', caption: 'No further questions.' },
-  { type: 'video', src: chaosVideo02, poster: chaosPhoto01, alt: 'Her Chaotic Side video two', caption: 'Exactly the energy I mean.' },
-  { type: 'video', src: chaosVideo03, poster: chaosPhoto02, alt: 'Her Chaotic Side video three', caption: 'A perfectly unserious moment.' },
-  { type: 'video', src: chaosVideo04, poster: chaosPhoto02, alt: 'Her Chaotic Side video four', caption: 'You were having entirely too much fun.' },
-  { type: 'image', src: chaosPhoto02, alt: 'Her Chaotic Side photo two', caption: 'Proof that you are not as innocent as you pretend.' },
+  { type: 'video', src: chaosVideo02, poster: chaosPhoto01, alt: 'Her Chaotic Side video two', caption: 'I never still understand this video, still pretty though.' },
+  { type: 'video', src: chaosVideo03, poster: chaosPhoto02, alt: 'Her Chaotic Side video three', caption: 'Excuse me?' },
+  { type: 'video', src: chaosVideo04, poster: chaosPhoto02, alt: 'Her Chaotic Side video four', caption: 'I like this one.' },
+  { type: 'video', src: chaosVideo05, poster: chaosPhoto02, alt: 'Her Chaotic Side video five', caption: 'Shakira has nothing on you' },
+  { type: 'image', src: chaosPhoto02, alt: 'Her Chaotic Side photo two', caption: 'Ambassador Colgate' },
 ];
 const adventureMedia = [
   { type: 'image', src: adventurePhoto01, alt: 'Her Adventures photo one', caption: 'A place, a moment, a memory.' },
-  { type: 'video', src: adventureVideo01, poster: adventurePhoto01, alt: 'Her Adventures video one', caption: 'Out in the world, being you.' },
+  { type: 'video', src: adventureVideo01, poster: adventurePhoto01, alt: 'Her Adventures video one', caption: 'Iya Aladura' },
   { type: 'video', src: adventureVideo02, poster: adventurePhoto01, alt: 'Her Adventures video two', caption: 'Another place worth remembering.' },
-  { type: 'video', src: adventureVideo03, poster: adventurePhoto02, alt: 'Her Adventures video three', caption: 'A little adventure, perfectly kept.' },
-  { type: 'video', src: adventureVideo04, poster: adventurePhoto02, alt: 'Her Adventures video four', caption: 'The journey looked good on you.' },
-  { type: 'video', src: adventureVideo05, poster: adventurePhoto02, alt: 'Her Adventures video five', caption: 'One more story from the road.' },
-  { type: 'image', src: adventurePhoto02, alt: 'Her Adventures photo two', caption: 'Collecting the kind of days that last.' },
+  { type: 'video', src: adventureVideo03, poster: adventurePhoto02, alt: 'Her Adventures video three', caption: 'Her NGO era >>>>>' },
+  { type: 'video', src: adventureVideo04, poster: adventurePhoto02, alt: 'Her Adventures video four', caption: 'And you allowed Blessing Okagbare represent nigeria??? ' },
+  { type: 'video', src: adventureVideo05, poster: adventurePhoto02, alt: 'Her Adventures video five', caption: 'Abia state nysc camp? I do not recommend.' },
+  { type: 'image', src: adventurePhoto02, alt: 'Her Adventures photo two', caption: 'Corper weee??' },
 ];
 const usMedia = [
   { type: 'image', src: usPhoto01, alt: 'Her and Me memory one', caption: 'One of the chapters I am happiest to be in.' },
