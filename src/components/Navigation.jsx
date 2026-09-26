@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom';
+export default function Navigation({onMusic, isPlaying}) { return <header className="nav"><Link to="/" className="wordmark">THE MANY SIDES <i>OF YOU</i></Link><nav><a href="/#sides">The Sides</a><a href="/#us">Her & Me</a><a href="/#letter">A Letter</a></nav><button className={'music '+(isPlaying?'playing':'')} onClick={onMusic} aria-label={isPlaying ? 'Pause music' : 'Play music'}>♫</button></header> }
